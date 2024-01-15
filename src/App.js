@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
 import { useState } from "react";
@@ -33,7 +33,7 @@ function App() {
       <Header totalMeals={totalCount} />
       <Switch>
         <Route
-          path="/home"
+          path="/items"
           exact
           render={() => <Meals onAddItem={addMealItem} />}
         />

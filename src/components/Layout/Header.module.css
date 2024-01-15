@@ -30,3 +30,9 @@
     object-fit: cover;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
+
+.items-text{
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
